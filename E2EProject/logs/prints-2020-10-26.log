@@ -1,0 +1,8 @@
+20:52:08.489 [TestNG-tests-1] INFO  resources.base - url triggered
+20:52:09.001 [TestNG-tests-3] INFO  resources.base - url is hit
+20:52:09.068 [TestNG-tests-3] INFO  resources.base - navigation bar is displayed
+20:52:09.148 [TestNG-tests-3] INFO  resources.base - driver closed
+20:52:10.700 [TestNG-tests-4] INFO  resources.base - login page clicked
+20:52:11.155 [TestNG-tests-4] INFO  resources.base - user login
+20:52:12.998 [TestNG-tests-4] INFO  resources.base - login page clicked
+20:52:13.493 [TestNG-tests-4] INFO  resources.base - user login

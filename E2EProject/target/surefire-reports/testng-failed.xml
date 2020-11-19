@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Navigation Bar(failed)" verbose="0">
+    <classes>
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialSetUp"/>
+          <include name="header"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+    </classes>
+  </test> <!-- Navigation Bar(failed) -->
+  <test thread-count="5" parallel="tests" name="validating Landing Functions(failed)" verbose="0">
+    <classes>
+      <class name="Academy.LandingPageFunctions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialSetUp"/>
+          <include name="featuredCourseTitle"/>
+        </methods>
+      </class> <!-- Academy.LandingPageFunctions -->
+    </classes>
+  </test> <!-- validating Landing Functions(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,4 @@
+13:32:03.811 [TestNG-tests-4] INFO  resources.base - user login
+13:32:05.807 [TestNG-tests-4] INFO  resources.base - login page clicked
+13:32:06.245 [TestNG-tests-4] INFO  resources.base - user login
+13:32:06.731 [TestNG-tests-4] INFO  resources.base - driver closed
